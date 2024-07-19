@@ -1,0 +1,1 @@
+# vk_intern_task
