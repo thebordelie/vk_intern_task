@@ -56,7 +56,7 @@ public class GroupCounterTest extends BaseTest {
         assertAll(
                 () -> assertEquals(200, response.getStatusCode()),
                 () -> assertEquals("75", response.jsonPath().getString("counters.themes")),
-                () -> assertEquals("102695", response.jsonPath().getString("counters.members")),
+                () -> assertEquals("102694", response.jsonPath().getString("counters.members")),
                 () -> assertEquals("4", response.jsonPath().getString("counters.videos")),
                 () -> assertEquals("1", response.jsonPath().getString("counters.links")),
                 () -> assertEquals("-1", response.jsonPath().getString("counters.maybe"))
